@@ -1,0 +1,26 @@
+{
+  "name": "lovelive-characters",
+  "version": "1.0.0",
+  "description": "Get a random Love Live! character names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naokie/lovelive-characters.git"
+  },
+  "keywords": [
+    "random",
+    "lovelive"
+  ],
+  "author": "Naoki Endoh <naoki.endoh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naokie/lovelive-characters/issues"
+  },
+  "homepage": "https://github.com/naokie/lovelive-characters#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
