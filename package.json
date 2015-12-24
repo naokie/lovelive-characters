@@ -1,6 +1,6 @@
 {
   "name": "lovelive-characters",
-  "version": "1.2.0-beta.1",
+  "version": "1.2.0",
   "description": "Get a random Love Live! character names",
   "main": "src/index.js",
   "scripts": {
