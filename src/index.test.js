@@ -20,8 +20,16 @@ describe('lovelive-character-names', function() {
 
   describe('random', function() {
     it('should return a random item from the loveLiveCharacterNames.all', function() {
-      var randamItem = loveLiveCharacterNames.random();
-      expect(loveLiveCharacterNames.all).to.include(randamItem);
+      var randomItem = loveLiveCharacterNames.random();
+      expect(loveLiveCharacterNames.all).to.include(randomItem);
+    });
+
+    it('should return an array of random items if passed a number', function() {
+      var randomItems = loveLiveCharacterNames.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach(function(item) {
+        expect(loveLiveCharacterNames.all).to.include(item);
+      });
     });
   });
 });
