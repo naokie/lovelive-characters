@@ -27,12 +27,12 @@
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
-    "chai": "3.4.1",
-    "commitizen": "2.4.6",
-    "cz-conventional-changelog": "1.1.5",
-    "ghooks": "1.0.3",
-    "mocha": "2.3.4",
-    "semantic-release": "^4.3.5"
+    "chai": "4.1.2",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "ghooks": "2.0.2",
+    "mocha": "5.0.1",
+    "semantic-release": "^12.4.1"
   },
   "config": {
     "commitizen": {
